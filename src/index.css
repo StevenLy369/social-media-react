@@ -11,3 +11,129 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.nav{
+  display: flex;
+  
+}
+
+.nav-button{
+  border-style: solid;
+  padding: 15px;
+  border-color: lightslategray;
+
+
+}
+
+.tweet{
+  border-radius: 15px;
+  background-color: whitesmoke;
+  border-color: lightskyblue;
+  border-radius: 25px;
+  border-style: solid;
+  padding: 15px;
+  margin: 15px;
+  padding-top: 15px;
+  padding-right: 45px;
+  padding-left: 45px;
+
+  
+}
+
+.search{
+  display: flex;
+}
+
+.searchBar{
+  border-radius: 15px;
+  background-color: whitesmoke;
+  border-color: lightskyblue;
+  border-radius: 25px;
+  border-style: solid;
+  padding: 10px;
+  padding-right: 250px;
+  padding-top: 15px;
+}
+
+.tweetList{
+  align-content: center;
+  border-style: solid;
+  flex-direction: column;
+  /* width: 55%; */
+  /* margin: 15px; */
+  padding: 15px;
+  border-color: lightslategray;
+
+
+}
+
+.main-layout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile {
+  border-style: solid;
+  /* width: 45%; */
+  border-color: lightslategrey;
+  margin: 15px;
+  padding: 15px;
+}
+
+.user-bio{
+  flex-wrap: wrap;
+  display: flex;
+  /* width: 50%; */
+  border-color: lightslategrey;
+  border-style: solid;
+  margin: 15px;
+  padding: 15px;
+}
+
+.tweet-input{
+  background-color: mediumaquamarine;
+}
+
+.friend-list{
+  border-style: solid;
+  padding: 50px;
+  border-color: lightslategray;
+
+}
+
+.friend-button{
+  background-color: rgb(14, 52, 175);
+  color: aliceblue;
+  padding: 15px;
+}
+
+
+.bio-div{
+  width: 25%;
+}
+
+.twitter-list{
+  width: 25%;
+}
+
+.user-nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-background{
+  width: 95%;
+  height: 95%;
+  
+}
+
+.profile{
+  right: 55px;
+}
